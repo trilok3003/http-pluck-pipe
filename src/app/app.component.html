@@ -1,0 +1,9 @@
+<pre><code>{{
+
+  'https://swapi.co/api/starships/9'
+    | http
+    | async
+    | pluck:'data'
+    | json
+
+}}</code></pre>
